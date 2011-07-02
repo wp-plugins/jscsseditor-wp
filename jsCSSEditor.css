@@ -1,0 +1,334 @@
+/* jsCSSEditor 3.0 */
+
+BODY {
+ text-align: center;
+ font-size: 80%;
+ background: #EEEEEE none repeat scroll 0%;
+ margin: 0px;
+ font-family: "Trebuchet MS","Bitstream Vera Sans",verdana,sans-serif;
+}
+
+FORM {
+ margin: 0px;
+}
+
+H2 {
+ background: #EEEEEE none repeat scroll 0%;
+ margin-bottom: 0pt;
+ color: #4040FF;
+ margin: 0px;
+ padding: 0px;
+}
+
+SELECT {
+ font-size: 75%;
+}
+
+TD {
+ padding: 1px;
+}
+
+.estGrava {
+ text-align: center;
+ color: red;
+}
+
+INPUT.estGrava {
+ background: #909090 none repeat scroll 0% 50%;
+ font-weight: bold;
+ width: 100%;
+ color: white;
+}
+
+TD.estGrava {
+ background: #eeeeee;
+}
+
+INPUT.OK {
+ font-weight: bold;
+}
+
+TABLE.pal {
+ border-collapse: separate;
+ font-size: 50%;
+ border: 2px solid;
+}
+
+TD.pal {
+ border: 0pt none;
+ width: 15pt;
+ height: 15pt;
+}
+
+TD.palCtrl {
+ text-align: center;
+ border: 2px solid #FFD860;
+}
+
+td.palOK {
+ font-size: 300%;
+ font-weight: bold;
+ text-align: center;
+ border: 2px dotted blue;
+}
+
+TABLE.palP {
+ border: 2px outset #FF4040;
+}
+
+TD.palP {
+ text-align: center;
+}
+
+TD.palVer {
+ font-size: 300%;
+ font-weight: bold;
+ text-align: center;
+ height: 70px;
+}
+
+.propAdd {
+ color: darkgreen;
+ font-weight: bold;
+}
+
+TD.propAdd {
+ text-align: center;
+}
+
+INPUT.propInp {
+ float: none;
+ font-size: 75%;
+}
+
+TD.propInp {
+ border-bottom: 2px solid rgb(153, 153, 153);
+ padding: 0pt 1pt;
+}
+
+SELECT.propInp1 {
+ width: 25px;
+}
+
+.propRot {
+ text-align: right;
+ color: darkblue;
+}
+
+TD.propRot {
+ font-size: 70%;
+ background-color: #FFFFFF;
+ border: 1px solid;
+ padding: 0px  2px;
+}
+
+INPUT.selCor {
+ border: 3px outset #000000;
+ width: 40px;
+ margin: 2px;
+ height: 23px;
+}
+
+TABLE.selCor {
+ padding: 0pt;
+ margin: 0pt;
+}
+
+TD.selCor {
+ width: 20pt;
+ height: 20pt;
+ font-size: 25%;
+ border: 2px inset red;
+}
+
+INPUT.selObj {
+ font-size: 60%;
+ width: 25px;
+ font-weight: bold;
+ border-color: #FF4040;
+ cursor: pointer;
+ cursor: hand;
+}
+
+TABLE.tabCl {
+ border: 3px solid red;
+ width: 100%;
+ margin: 2px 0px;
+ padding: 0px;
+}
+
+FONT.tabETit {
+ color: blue;
+ font-size: 125%;
+ font-weight: bold;
+}
+
+H1.tabL {
+ color: red;
+ font-size: 140%;
+ border-bottom: 2px solid #FF4040;
+ margin: 0px;
+}
+
+TABLE.tabL {
+ border: 2px solid red;
+ margin: 8px;
+ padding: 4px;
+}
+
+TD.tabL {
+ border-bottom: 1px solid black;
+ padding: 0px 8px;
+}
+
+INPUT.volta {
+ padding: 0pt;
+ font-size: 5px;
+ width: 13px;
+ height: 13px;
+ background-color: #DDDDDD;
+}
+
+INPUT.voltaS {
+ background-color: #FF4040;
+}
+
+TEXTAREA.editFolha {
+ width: 100%;
+ padding: 5px;
+}
+
+TD.editFolha {
+ text-align: center;
+}
+
+TD.folha INPUT {
+ font-size: 70%;
+ padding: 0px;
+ font-weight: bold;
+ margin: 0px 4px;
+ border-color: #FF4040;
+}
+
+TD.folha {
+ text-align: center;
+}
+
+A.tabL {
+ text-decoration: none;
+}
+
+INPUT {
+ font-weight: bold;
+}
+
+TABLE.folha th {
+ font-size: 80%;
+}
+
+TABLE.folha {
+ font-size: 90%;
+ border-collapse: collapse;
+}
+
+TABLE {
+}
+
+TABLE.folha td {
+ border: none;
+}
+
+TD.folha A {
+ font-size: 75%;
+}
+
+INPUT.voltaN {
+ background-color: #00A000;
+}
+
+TABLE.addProp {
+ margin: 2px 0px;
+ border-collapse: separate;
+ font-size: 90%;
+}
+
+TD.propAdd,.atMenu {
+ border: 2px outset #00A000;
+ padding: 0px 2px;
+ background-color: #FFFFFF;
+ cursor: pointer;
+ cursor: hand;
+ font-size: 80%;
+ font-weight: bold;
+ color: #00A000;
+}
+
+DIV#addPropDIV {
+ display: none;
+ position: absolute;
+ background-color: #FFFFFF;
+ padding: 2px;
+ border: 4px outset #FF4040;
+}
+
+P.addPropO {
+ margin: 0px;
+ cursor: pointer;
+ cursor: hand;
+ text-align: left;
+}
+
+P.addPropO:hover {
+ background-color: #DDDDDD;
+}
+
+TABLE.addProp TD {
+ text-align: center;
+}
+
+P.addPropO par {
+}
+
+P.addPropOimpar {
+ background-color: #E0F0E0;
+}
+
+TD.tabL IMG {
+ cursor: pointer;
+ cursor: hand;
+}
+
+DIV.ajuda {
+ margin: 0px;
+ cursor: pointer;
+ cursor: hand;
+ float: right;
+ background-color: #FFD860;
+ padding: 1px 5px;
+ border: 1px solid;
+ font-size: 75%;
+}
+
+DIV#mAjuda {
+ position: absolute;
+ display: none;
+ background-color: #E0FFE0;
+ padding: 6px;
+ border: 1px solid;
+}
+
+A.menu {
+ margin: 0px;
+ cursor: pointer;
+ cursor: hand;
+ display: block;
+ text-decoration: none;
+ padding: 2px;
+}
+
+A.menu:hover {
+ background-color: #E0F0E0;
+}
+
+
+
